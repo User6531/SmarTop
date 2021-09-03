@@ -1,0 +1,21 @@
+
+.class { behavior:url(js/PIE.htc); position:absolute;}
+
+.btn {
+	behavior:url(js/PIE.htc);
+	position: relative;
+}
+.camera_prev {
+	right: 254px;
+}
+.camera_next {
+	right: 224px;
+}
+.camera_caption {
+	bottom: 215px;
+	bottom:27%;
+}
+
+body {
+	min-width: 1000px;
+}

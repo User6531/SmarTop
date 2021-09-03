@@ -1,0 +1,150 @@
+/*contacts*/
+.page-contacts {
+	padding-bottom: 46px;
+}
+.page-contacts .figure_img {
+	margin-right:0px;
+	float: none;
+}
+	.page-contacts h2,
+	.page-privacy {
+		text-transform: uppercase;
+	}
+	.adress span {
+		display: inline-block;
+		width: 74px;
+	} 
+		.adress span.e-mail {
+			width:auto;
+		}
+			.adress span.e-mail span { 
+				display: inline;
+				font-size: 13px;
+			}
+		.adress a {
+			font:13px/20px Trebuchet MS, Arial;
+			color:#e6532f;
+			text-decoration: none;
+		}
+			.adress a:hover {
+				text-decoration: underline;
+			}
+	.map_wrapper {
+		display: block;
+	}
+		dl.adress {
+			margin-top: 24px;
+			font:13px/20px  Arial, sans-serif;
+		}
+		dl.adress dt {
+			margin-bottom: 0px;
+		}
+	#map_canvas {
+		width: 100%;
+		height: 283px;
+	}
+	#contact-form {
+		margin-top: 13px;
+		position: relative;
+	}
+	#contact-form .error, #contact-form .empty {
+		display: none;
+		text-align: left;
+		color: #e6532f;
+		font-size: 11px;
+		height: 11px;
+		margin-top: -12px;
+	}
+		#contact-form .message .error, #contact-form .message .empty {
+			margin-top: 0px;
+			position: absolute;
+		}
+	#contact-form .success {
+		display: none;
+		position: absolute;
+		width: 100%;
+		top: 0px;
+		left: 0;
+		z-index: 99;
+		background: #e6532f;
+		text-align: center;
+		padding: 24px 0;
+		color: #fff;
+	}
+	#contact-form label {
+		/*display: inline-block;*/
+		display: block;
+		position: relative;
+		min-height: 53px;
+	}
+	#contact-form label.message {
+		padding-bottom: 0;
+	}
+	#contact-form textarea {
+		overflow: auto;
+		width: 100%;
+		resize: none;
+		margin: 0 0 0 0;
+	}
+	#contact-form label input,
+	#contact-form label textarea {
+		-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+		font:13px/15px Arial, Helvetica, sans-serif;
+		color: #58504a;
+		border: none;
+		background: #1f1c1b;
+		outline: none;
+		box-shadow:none;
+	}
+	#contact-form label input {
+		-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+		width: 219px;
+		height:33px;
+		margin: 0px 0 11px 0;
+		padding-left: 20px;
+		padding-top: 7px;
+		padding-bottom: 11px;
+		outline: none;
+	}
+	#contact-form label textarea {
+		width: 380px;
+		min-height: 205px;
+		padding: 8px 0 0 20px;
+	}
+	.form_buttons {
+		text-align: right;
+		padding-top: 6px;
+	}
+	.form_buttons a {
+		display: inline-block;
+		margin-left: 13px;
+		padding: 9px 17px 10px;
+	}
+
+@media only screen and (max-width: 995px) {
+	
+	#contact-form label {
+		display: block;
+		
+	}
+		#contact-form label input,
+		#contact-form label textarea {
+			width: 100%;
+		}
+		
+}
+@media only screen and (max-width: 767px) {
+ 
+
+}
+@media only screen and (max-width: 480px) {
+
+}
+@media only screen and (max-width: 320px) {
+
+}
+
